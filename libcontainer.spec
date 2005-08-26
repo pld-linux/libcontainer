@@ -2,8 +2,8 @@
 # Conditional build:
 %bcond_without	static_libs # don't build static libraries
 #
-Summary:	Simple C library that provides linked lists, stacks, queues and binary trees.
-Summary(pl):	Prosta biblioteka C dostarczaj±ca list wi±zanych, stosów, kolejek i drzew binarnych.
+Summary:	Simple C library that provides linked lists, stacks, queues and binary trees
+Summary(pl):	Prosta biblioteka C dostarczaj±ca list wi±zanych, stosów, kolejek i drzew binarnych
 Name:		libcontainer
 Version:	0.1.0
 Release:	0.1
@@ -24,7 +24,12 @@ I would like to work on this a little more (linked-lists only support
 bubble sort at the moment). There is a slight lack of documentation
 but there are some examples in the test/ directory.
 
-#%%description -l pl
+%description -l pl
+Libcontainer to prosta biblioteka C, której mo¿na u¿ywaæ w aplikacjach
+do obs³ugi list wi±zanych, stosów, kolejek i drzew binarnych. Autor
+chcia³by jeszcze popracowaæ nad ni± nieco wiêcej (listy wi±zane
+obs³uguj± aktualnie tylko sortowanie b±belkowe). S± pewne braki w
+dokumentacji, ale jest trochê przyk³adów w katalogu test/.
 
 %package devel
 Summary:	Header files for libcontainer library
