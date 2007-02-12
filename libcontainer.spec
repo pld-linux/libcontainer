@@ -3,7 +3,7 @@
 %bcond_without	static_libs # don't build static libraries
 #
 Summary:	Simple C library that provides linked lists, stacks, queues and binary trees
-Summary(pl):	Prosta biblioteka C dostarczaj±ca list wi±zanych, stosów, kolejek i drzew binarnych
+Summary(pl.UTF-8):   Prosta biblioteka C dostarczajÄ…ca list wiÄ…zanych, stosÃ³w, kolejek i drzew binarnych
 Name:		libcontainer
 Version:	0.1.0
 Release:	0.1
@@ -24,35 +24,35 @@ I would like to work on this a little more (linked-lists only support
 bubble sort at the moment). There is a slight lack of documentation
 but there are some examples in the test/ directory.
 
-%description -l pl
-Libcontainer to prosta biblioteka C, której mo¿na u¿ywaæ w aplikacjach
-do obs³ugi list wi±zanych, stosów, kolejek i drzew binarnych. Autor
-chcia³by jeszcze popracowaæ nad ni± nieco wiêcej (listy wi±zane
-obs³uguj± aktualnie tylko sortowanie b±belkowe). S± pewne braki w
-dokumentacji, ale jest trochê przyk³adów w katalogu test/.
+%description -l pl.UTF-8
+Libcontainer to prosta biblioteka C, ktÃ³rej moÅ¼na uÅ¼ywaÄ‡ w aplikacjach
+do obsÅ‚ugi list wiÄ…zanych, stosÃ³w, kolejek i drzew binarnych. Autor
+chciaÅ‚by jeszcze popracowaÄ‡ nad niÄ… nieco wiÄ™cej (listy wiÄ…zane
+obsÅ‚ugujÄ… aktualnie tylko sortowanie bÄ…belkowe). SÄ… pewne braki w
+dokumentacji, ale jest trochÄ™ przykÅ‚adÃ³w w katalogu test/.
 
 %package devel
 Summary:	Header files for libcontainer library
-Summary(pl):	Pliki nag³ówkowe biblioteki libcontainer
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki libcontainer
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for libcontainer library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki libcontainer.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki libcontainer.
 
 %package static
 Summary:	Static libcontainer library
-Summary(pl):	Statyczna biblioteka libcontainer
+Summary(pl.UTF-8):   Statyczna biblioteka libcontainer
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libcontainer library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libcontainer.
 
 %prep
