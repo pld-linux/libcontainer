@@ -3,7 +3,7 @@
 %bcond_without	static_libs # don't build static libraries
 #
 Summary:	Simple C library that provides linked lists, stacks, queues and binary trees
-Summary(pl.UTF-8):   Prosta biblioteka C dostarczająca list wiązanych, stosów, kolejek i drzew binarnych
+Summary(pl.UTF-8):	Prosta biblioteka C dostarczająca list wiązanych, stosów, kolejek i drzew binarnych
 Name:		libcontainer
 Version:	0.1.0
 Release:	0.1
@@ -33,7 +33,7 @@ dokumentacji, ale jest trochę przykładów w katalogu test/.
 
 %package devel
 Summary:	Header files for libcontainer library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libcontainer
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libcontainer
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -45,7 +45,7 @@ Pliki nagłówkowe biblioteki libcontainer.
 
 %package static
 Summary:	Static libcontainer library
-Summary(pl.UTF-8):   Statyczna biblioteka libcontainer
+Summary(pl.UTF-8):	Statyczna biblioteka libcontainer
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
